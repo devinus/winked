@@ -1,6 +1,13 @@
 {
   "name": "winked",
-  "description": "A suggestive CommonJS linked list implementation",
   "version": "0.1.0",
-  "author": "Devin Torres <devin@devintorres.com>"
+  "description": "A suggestive CommonJS linked list implementation",
+  "site":   "http://github.com/devinus/winked",
+  "author": "Devin Torres <devin@devintorres.com>",
+
+  "repositories": [
+    { "type": "git", "url": "git://github.com/devinus/winked.git" }
+  ],
+
+  "licenses": [{ "type": "MIT" }]
 }
