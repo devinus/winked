@@ -1,0 +1,6 @@
+{
+  "name": "winked",
+  "description": "A suggestive CommonJS linked list implementation",
+  "version": "0.1.0",
+  "author": "Devin Torres <devin@devintorres.com>"
+}
