@@ -2,7 +2,7 @@
   "name": "winked",
   "version": "0.1.0",
   "description": "A suggestive CommonJS linked list implementation",
-  "site":   "http://github.com/devinus/winked",
+  "site": "http://github.com/devinus/winked",
   "author": "Devin Torres <devin@devintorres.com>",
 
   "repositories": [

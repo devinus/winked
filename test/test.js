@@ -1,14 +1,16 @@
-var assert = require('assert'),
-    winked = require('../lib/winked'),
-    LinkedList = winked.LinkedList,
-    Node = winked.Node;
+var
+  assert = require('assert'),
+  winked = require('../lib/winked'),
+  LinkedList = winked.LinkedList,
+  Node = winked.Node;
 
-var list = new LinkedList(),
-    node1 = list.append(new Node(1)),
-    node3 = list.append(new Node(3)),
-    node4 = list.append(new Node(5)),
-    node2 = list.insertBefore(new Node(2), node3),
-    node5 = list.insertAfter(new Node(5), node4);
+var
+  list = new LinkedList(),
+  node1 = list.append(new Node(1)),
+  node3 = list.append(new Node(3)),
+  node4 = list.append(new Node(5)),
+  node2 = list.insertBefore(new Node(2), node3),
+  node5 = list.insertAfter(new Node(5), node4);
 
 assert.strictEqual(list.length, 5, "list.length !== 5");
 assert.strictEqual(list.head, node1, "head !== node1");

@@ -1,1 +1,1 @@
-module.exports = require('./lib/linked');
+module.exports = require('./lib/winked');

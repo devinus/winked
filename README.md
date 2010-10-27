@@ -8,11 +8,11 @@ prototype, jQuery's DOM manipulation methods, and Python.
 
 ## Usage
 
-    $ cd /path/to/linkedjs
-    $ rlwrap node repl.js
-    linkedjs> var list = new LinkedList();
-    linkedjs> list.appendAll(new Node(1), new Node(2))
-    linkedjs> list.head.next.prev
+    $ cd /path/to/winked
+    $ node repl.js
+    winked> var list = new LinkedList();
+    winked> list.appendAll(new Node(1), new Node(2))
+    winked> list.head.next.prev
     { prev: null
     , next: { prev: [Circular], next: null, data: 2 }
     , data: 1
